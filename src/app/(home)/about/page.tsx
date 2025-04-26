@@ -1,3 +1,8 @@
+/**
+ * Renders a static About page with a heading and descriptive text.
+ *
+ * @returns A React element displaying the About page content.
+ */
 export default function About() {
   return (
     <div className="p-4">

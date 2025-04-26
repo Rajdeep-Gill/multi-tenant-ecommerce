@@ -1,3 +1,8 @@
+/**
+ * Renders the Features page with a heading and descriptive text.
+ *
+ * @returns A React element displaying the Features page content.
+ */
 export default function Features() {
   return (
     <div className="p-4">

@@ -1,3 +1,8 @@
+/**
+ * Renders a simple contact page with a heading and descriptive text.
+ *
+ * @returns A React element displaying the contact page content.
+ */
 export default function Contact() {
   return (
     <div className="p-4">

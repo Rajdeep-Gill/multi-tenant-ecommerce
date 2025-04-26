@@ -1,3 +1,8 @@
+/**
+ * Renders the pricing page with a heading and descriptive text.
+ *
+ * @returns A JSX element displaying the pricing page content.
+ */
 export default function Pricing() {
   return (
     <div className="p-4">
