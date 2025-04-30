@@ -12,6 +12,7 @@ import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 import { usePathname } from "next/navigation";
 import { NavbarSidebar } from "./navbar-sidebar";
+
 const poppins = Poppins({
   subsets: ["latin"],
   weight: ["700"],
