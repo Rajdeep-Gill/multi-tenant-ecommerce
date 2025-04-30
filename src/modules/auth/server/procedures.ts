@@ -11,7 +11,6 @@ export const authRouter = createTRPCRouter({
     const headers = await getHeaders();
 
     const session = await ctx.db.auth({ headers });
-    console.log("Session", session);
     return session;
   }),
   register: baseProcedure
