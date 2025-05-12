@@ -1,6 +1,6 @@
-import { ProductList } from "../ui/components/product-list";
-
 import { Suspense } from "react";
+
+import { ProductList } from "../ui/components/product-list";
 import { ProductFilters } from "../ui/components/product-filters";
 import { ProductSort } from "../ui/components/product-sort";
 import { ProductListSkeleton } from "../ui/components/product-list";
